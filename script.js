@@ -30,7 +30,7 @@ async function processImage() {
 function extractName(text) {
   const lines = text.split('\n').map(line => line.trim()).filter(line => line);
   for (const line of lines) {
-    if (/^[A-Z][a-z]+\s[A-Z][a-z]+$/.test(line)) {
+    if (/^[A-Z][A-Za-z.'-]+ [A-Z][A-Za-z.'-]+$/.test(line)) {
       return line;
     }
   }
