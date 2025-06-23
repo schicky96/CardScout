@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CardScout Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CardScout</h1>
+  <input type="file" id="imageInput" accept="image/*">
+  <button onclick="processImage()">Scan Card</button>
+  <p id="status"></p>
+  <h2>Inventory</h2>
+  <ul id="inventoryList"></ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

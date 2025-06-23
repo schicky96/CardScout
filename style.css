@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+h1 {
+  color: #333;
+}
+button {
+  margin-top: 10px;
+}
+#inventoryList {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
